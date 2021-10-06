@@ -1,7 +1,50 @@
+:root {
+	--highlight: #ff57b1;
+	--heading: #f8f8f8;
+	--background: #1a1d23;
+	--info: #bbbbbb;
+	--body: #d6d6d6;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-// TODO
+body {
+  background-color: var(--background);
+
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: var(--body);
+
+  width: 100vw;
+}
+
+h1,h2,h3 {
+  color: var(--heading);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 4rem;
+
+}
+
+h3 {
+  font-size: 1.75em;
+  line-height: 3rem;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+
+
+
+
